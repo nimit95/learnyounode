@@ -18,7 +18,7 @@ module.exports = function (dir, ext, callback) {
         ans.push(file)
     });
 
-    callback(null, ans)
+    callback(null, ans);
   })
 
 

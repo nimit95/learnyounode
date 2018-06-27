@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
 
   req.pipe(map(chunk => {
     return chunk.toString().toUpperCase();
-  })).pipe(res)
+  })).pipe(res);
 
 });
 

@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs');
 
 let data = fs.readFileSync(process.argv[2]);
 
