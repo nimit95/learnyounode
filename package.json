@@ -4,7 +4,8 @@
   "description": "",
   "main": "exercise1.js",
   "dependencies": {
-    "through2-map": "^3.0.0"
+    "through2-map": "^3.0.0",
+    "url": "^0.11.0"
   },
   "devDependencies": {},
   "scripts": {
